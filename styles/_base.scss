@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f9faff;
+  font-family: "DM Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media only screen and(max-width: 576px) {
+  .container {
+    max-width: 576px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+  
+}

@@ -1,0 +1,91 @@
+.cards {
+  border: 2px solid rgba(235, 235, 235, 0.8);
+  border-radius: 17px;
+  padding: 54px 67px;
+}
+.card-hr {
+  border-right: 2px solid rgba(235, 235, 235, 0.8);
+  padding: 24px 43px 24px 0;
+}
+.card-hr:nth-child(3) {
+  border-right: 2px solid transparent;
+  padding: 24px 43px 24px 0;
+}
+.round2 {
+  background: #ffffff;
+  box-shadow: 0px 4px 22px rgba(95, 95, 95, 0.05);
+  padding: 24px;
+  border-radius: 100px;
+  width: 102px;
+  height: 102px;
+  position: absolute;
+  top: -50px;
+  left: 130px;
+}
+.round3{
+    background: rgba(255, 122, 80, 0.83);
+    box-shadow: 0px 4px 22px rgba(95, 95, 95, 0.05);
+    padding: 24px;
+    border-radius: 100px;
+    width: 102px;
+    height: 102px;
+    position: absolute;
+    top: -50px;
+    left: 585px;
+}
+.round4{
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 100px;
+    width: 102px;
+    height: 102px;
+    position: absolute;
+    top: -50px;
+    left: 1020px;
+}
+.bot2{
+    position: relative;
+}
+.card2 {
+  background: #ffffff;
+  padding: 75px 17px 39px 30px;
+  box-shadow: 0px 4px 22px rgba(95, 95, 95, 0.05);
+  border-radius: 23px;
+}
+// .card2:hover{
+//   transition: all ease 0.3s;
+//   transform: scale(1.1);
+// }
+@media only screen and (max-width: 640px) {
+    .card-hr {
+        border-right: none;
+        border-bottom: 2px solid rgba(235, 235, 235, 0.8);
+        padding: 24px 43px 24px 0;
+      }
+      .card-hr:nth-child(3) {
+        border-right: none;
+        border-bottom: 2px solid transparent;
+        padding: 24px 43px 24px 0;
+      }
+      .round2 {
+        width: 92px;
+        height: 92px;
+        position: absolute;
+        top: 0px;
+        left: 130px;
+      }
+      .round3{
+          width: 82px;
+          height: 82px;
+          position: absolute;
+          top: 285px;
+          left: 130px;
+      }
+      .round4{
+          width:  92px;
+          height: 92px;
+          position: absolute;
+          top: 586px;
+          left: 130px;
+      }
+}

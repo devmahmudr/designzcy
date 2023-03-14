@@ -128,6 +128,10 @@ header {
   margin-top: 142px;
 }
 
+.hero__left {
+  width: 48%;
+}
+
 .hero h1 {
   font-weight: 500;
   font-size: 72px;
@@ -178,16 +182,18 @@ header {
   }
   .hero p {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 12px;
+    line-height: 16px;
     color: #3d3d3f;
-    margin-top: 42px;
-    margin-bottom: 40px;
+    margin-top: 32px;
+    margin-bottom: 36px;
   }
   .hero-image {
     width: 390px;
     height: 370px;
     margin: 0 auto;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .hero button {
     background: linear-gradient(2.79deg, #f35f2f -13.68%, rgba(243, 95, 47, 0.75) 121.16%);
@@ -196,5 +202,103 @@ header {
     border: none;
     padding: 14px 28px;
     color: #fff;
+  }
+  .hero__left {
+    width: 100%;
+  }
+}
+.cards {
+  border: 2px solid rgba(235, 235, 235, 0.8);
+  border-radius: 17px;
+  padding: 54px 67px;
+}
+
+.card-hr {
+  border-right: 2px solid rgba(235, 235, 235, 0.8);
+  padding: 24px 43px 24px 0;
+}
+
+.card-hr:nth-child(3) {
+  border-right: 2px solid transparent;
+  padding: 24px 43px 24px 0;
+}
+
+.round2 {
+  background: #ffffff;
+  box-shadow: 0px 4px 22px rgba(95, 95, 95, 0.05);
+  padding: 24px;
+  border-radius: 100px;
+  width: 102px;
+  height: 102px;
+  position: absolute;
+  top: -50px;
+  left: 130px;
+}
+
+.round3 {
+  background: rgba(255, 122, 80, 0.83);
+  box-shadow: 0px 4px 22px rgba(95, 95, 95, 0.05);
+  padding: 24px;
+  border-radius: 100px;
+  width: 102px;
+  height: 102px;
+  position: absolute;
+  top: -50px;
+  left: 585px;
+}
+
+.round4 {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 100px;
+  width: 102px;
+  height: 102px;
+  position: absolute;
+  top: -50px;
+  left: 1020px;
+}
+
+.bot2 {
+  position: relative;
+}
+
+.card2 {
+  background: #ffffff;
+  padding: 75px 17px 39px 30px;
+  box-shadow: 0px 4px 22px rgba(95, 95, 95, 0.05);
+  border-radius: 23px;
+}
+
+@media only screen and (max-width: 640px) {
+  .card-hr {
+    border-right: none;
+    border-bottom: 2px solid rgba(235, 235, 235, 0.8);
+    padding: 24px 43px 24px 0;
+  }
+  .card-hr:nth-child(3) {
+    border-right: none;
+    border-bottom: 2px solid transparent;
+    padding: 24px 43px 24px 0;
+  }
+  .round2 {
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: 0px;
+    left: 130px;
+  }
+  .round3 {
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    top: 285px;
+    left: 130px;
+  }
+  .round4 {
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: 586px;
+    left: 130px;
   }
 }/*# sourceMappingURL=main.css.map */

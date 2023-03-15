@@ -21,6 +21,31 @@
   margin-top: 42px;
   margin-bottom: 40px;
 }
+.portfolio-btn{
+  background: linear-gradient(
+    2.79deg,
+    #f35f2f -13.68%,
+    rgba(243, 95, 47, 0.75) 121.16%
+  );
+  opacity: 0.85;
+  border-radius: 5px;
+  border: none;
+  padding: 14px 28px;
+  color: #fff;
+}
+.portfolio-btn:hover {
+  box-shadow: 5px 5px 4px #f35f2f;
+  background: linear-gradient(
+    2.79deg,
+    #f35f2f -13.68%,
+    rgba(243, 95, 47, 0.75) 121.16%
+  );
+  opacity: 0.85;
+  border-radius: 5px;
+  display: inline-block;
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+}
 .hero button {
   background: linear-gradient(
     2.79deg,
@@ -46,8 +71,63 @@
     transform: scale(1.1);
     transition: all ease 0.3s;
   }
+  .footer-btn {
+    background: linear-gradient(
+      2.79deg,
+      #f35f2f -13.68%,
+      rgba(243, 95, 47, 0.75) 121.16%
+    );
+    opacity: 0.85;
+    border-radius: 5px;
+    border: none;
+    padding: 14px 117px;
+    color: #fff;
+    margin-top: 12px;
+  }
+  .footer-btn:hover {
+      box-shadow: 5px 5px 4px #f35f2f;
+      background: linear-gradient(
+        2.79deg,
+        #f35f2f -13.68%,
+        rgba(243, 95, 47, 0.75) 121.16%
+      );
+      opacity: 0.85;
+      border-radius: 5px;
+      display: inline-block;
+      transform: scale(1.1);
+      transition: all ease 0.3s;
+    }
+  .contact-btn {
+    background: linear-gradient(
+      2.79deg,
+      #f35f2f -13.68%,
+      rgba(243, 95, 47, 0.75) 121.16%
+    );
+    opacity: 0.85;
+    border-radius: 5px;
+    border: none;
+    padding: 14px 28px;
+    color: #fff;
+  }
+  .btn-pos{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .contact-btn:hover {
+      box-shadow: 5px 5px 4px #f35f2f;
+      background: linear-gradient(
+        2.79deg,
+        #f35f2f -13.68%,
+        rgba(243, 95, 47, 0.75) 121.16%
+      );
+      opacity: 0.85;
+      border-radius: 5px;
+      display: inline-block;
+      transform: scale(1.1);
+      transition: all ease 0.3s;
+    }
   
-  @media only screen and  (max-width: 576px) {
+  @media only screen and  (max-width: 640px) {
     .hero {
       display: flex;
       flex-wrap: wrap;
